@@ -9,7 +9,7 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
 
-    public static final Item WEED_SEED = registerItem("weed_seed",
+    public static final Item WEED_SEED = registerItem("weed_seeds",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
     private static Item registerItem(String name, Item item) {
