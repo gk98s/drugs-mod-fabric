@@ -1,6 +1,7 @@
 package net.gk98s.thegoodstuff;
 
 import net.fabricmc.api.ModInitializer;
+import net.gk98s.thegoodstuff.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,6 +11,6 @@ public class TheGoodStuff implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
 	}
 }
