@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "thegoodstuff:block/gas_stove"
+    },
+    "facing=south": {
+      "model": "thegoodstuff:block/gas_stove",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "thegoodstuff:block/gas_stove",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "thegoodstuff:block/gas_stove",
+      "y": 90
+    }
+  }
+}
