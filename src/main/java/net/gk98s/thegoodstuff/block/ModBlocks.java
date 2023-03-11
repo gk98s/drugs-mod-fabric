@@ -21,12 +21,6 @@ public class ModBlocks {
                     .strength(5.0f, 6.0f)
                     .requiresTool()), ModItemGroup.DRUGS);
 
-    /*public static final Block GAS_STOVE = registerBlock("gas_stove",
-            new Block(FabricBlockSettings
-                    .of(Material.METAL)
-                    .strength(5.0f, 6.0f)
-                    .requiresTool()), ModItemGroup.DRUGS);*/
-
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);
         return Registry.register(Registry.BLOCK, new Identifier(TheGoodStuff.MOD_ID, name), block);
