@@ -9,8 +9,10 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
 
-    public static final Item WEED_SEED = registerItem("weed_seeds",
-            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item WEED_SEEDS = registerItem("weed_seeds",
+            new Item(new FabricItemSettings().group(ModItemGroup.DRUGS)));
+    public static final Item WEED = registerItem("weed",
+            new Item(new FabricItemSettings().group(ModItemGroup.DRUGS)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(TheGoodStuff.MOD_ID, name), item);

@@ -1,3 +1,6 @@
 {
-  "item.thegoodstuff.weed_seeds": "Weed Seeds"
+  "item.thegoodstuff.weed_seeds": "Weed Seeds",
+  "item.thegoodstuff.weed": "Weed",
+
+  "itemGroup.thegoodstuff.drugs": "Drugs"
 }
