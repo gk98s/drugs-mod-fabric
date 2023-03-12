@@ -18,7 +18,7 @@ public class ModBlocks {
     public static final Block GAS_STOVE = registerBlock("gas_stove",
             new GasStove(FabricBlockSettings
                     .of(Material.METAL)
-                    .strength(5.0f, 6.0f)
+                    .strength(3.0f, 4.0f)
                     .requiresTool()), ModItemGroup.DRUGS);
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
